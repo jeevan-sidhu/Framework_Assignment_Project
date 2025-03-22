@@ -36,7 +36,6 @@ public class BaseTest {
 		}
 		driver = df.init_driver(prop);
 		ap = new ApplicationPage(driver);
-		sf = new SoftAssert();
 	}
 
 	@AfterTest(groups= {"Sanity", "Regression", "Functional", "DataDriven"})
